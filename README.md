@@ -61,6 +61,10 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
   python aminoacid_count.py
   ```
+
+## Objetivo
+Nuestro enfoque central es profundizar la comprensión de la variabilidad presente en las secuencias de la proteína-S de diferentes cepas del virus SARS-Cov-2.
+
 ## Resultados
 A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
   - Histograma de largo de las secuencias
