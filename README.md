@@ -1,6 +1,6 @@
 # Spike Protein Analysis
 ## Proyecto Final para la clase de BioPython impartida en la Licenciatura en Ciencias Genómicas - UNAM
-### Ana Marisol García Mejía:
+### Ana Marisol García Mejía: anagm@lcg.unam.mx
 ### Valentina Janet Arias Ojeda: vjarias@lcg.unam.mx
 #### Introducción
 El virus SARS-CoV-2 responsable de la pandemia por la enfermedad COVID-2019, ha tenido un gran impacto en la salud mundial, con un aproximado de 700 millones de casos de infección y 6.9 millones de muertes. Presentan un amplio espectro de indicadores clínicos desde infección respiratoria asintomática hasta neumonía grave asociada al síndrome de distrés respiratorio agudo, y de igual manera varios factores de riesgo pueden ser causa de esta variación
