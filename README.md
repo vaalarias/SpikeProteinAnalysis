@@ -74,7 +74,7 @@ A partir de los análisis realizados con las secuencias de la proteína correspo
     ![](/results/aa_count_plot_SARS_CoV_2_human_CHE_SARS_CoV_2.png)
   
   - Contenido de aminoácidos correspondientes a la variante Delta:
-    ![](/results/aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023.png)
+    ![](/results/aa_count_plot_SARS_CoV_2_human_NLD_EMC_Delta_AY4_2_2021.png)
   
   - Contenido de aminoácidos correspondientes a la variante Omicron:
     ![](/results/aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023.png)
