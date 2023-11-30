@@ -12,12 +12,13 @@ La estructura tridimensional de la proteína Spike presenta características ún
 Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas/variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
 
 #### Estructura del Repositorio
+´´´
 ├───data
 ├───results
 └───src
-
+´´´
 1. *data:* 
-Contiene los archivos recuperados de GenBank en formato .gb y el archivo fasta generado con las secuencias de la proteína. 
+Contiene los archivos recuperados de GenBank en formato ´´´.gb´´´ y el archivo fasta generado con las secuencias de la proteína. 
 2. *results:*
 Aquí se almacenan los resultados generados por el análisis de las secuencias proteicas; visualizaciones y gráficos derivados del procesamiento de las secuencias.
 3. *src:*
