@@ -2,7 +2,7 @@
 ## Proyecto Final para la clase de BioPython impartida en la Licenciatura en Ciencias Genómicas - UNAM
 ### Ana Marisol García Mejía: anagm@lcg.unam.mx
 ### Valentina Arias: vjarias@lcg.unam.mx
-#### Introducción
+## Introducción
 El virus SARS-CoV-2 responsable de la pandemia por la enfermedad COVID-2019, ha tenido un gran impacto en la salud mundial, con un aproximado de 700 millones de casos de infección y 6.9 millones de muertes. Presentan un amplio espectro de indicadores clínicos desde infección respiratoria asintomática hasta neumonía grave asociada al síndrome de distrés respiratorio agudo, y de igual manera varios factores de riesgo pueden ser causa de esta variación
 
 La proteína Spike, también conocida como S-proteína, es una estructura clave que se encuentra en la superficie de los coronavirus. Esta proteína desempeña un papel fundamental en el proceso de infección al facilitar la entrada del virus en las células huésped.
@@ -11,7 +11,7 @@ La estructura tridimensional de la proteína Spike presenta características ún
 
 Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas o variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
 
-#### Estructura del Repositorio
+## Estructura del Repositorio
 ```
 ├───data
 ├───results
@@ -23,7 +23,7 @@ Contiene los archivos recuperados de GenBank en formato ```.gb``` y el archivo f
 Aquí se almacenan los resultados generados por el análisis de las secuencias proteicas; visualizaciones y gráficos derivados del procesamiento de las secuencias.
 3. *src:*
 La carpeta src contiene todos los scripts y códigos fuente utilizados para el análisis, procesamiento y visualización de los datos. Incluye funciones, utilidades, y programas que realizan tareas específicas para el estudio de las proteínas.
-#### Procedimiento
+## Procedimiento
 - Recuperación de IDs de NCBI para las cepas deseadas.
 
   Este paso implica la utilización de herramientas como la API de NCBI (Entrez) en Python para buscar y obtener los identificadores (IDs) de las cepas específicas de interés, como las variantes de la proteína Spike de diferentes cepas de coronavirus.
@@ -61,7 +61,7 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
   python aminoacid_count.py
   ```
-#### Resultados
+## Resultados
 A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
   - Histograma de largo de las secuencias
   
@@ -71,7 +71,7 @@ A partir de los análisis realizados con las secuencias de la proteína correspo
   
   - Contenido de aminoácidos correspondientes a la variante Omicron
 
-#### Conclusiones
+## Conclusiones
 
 La exploración detallada de las secuencias permite visualizar la diversidad genética entre las cepas, resaltando las áreas conservadas y las regiones propensas a variaciones. Además, el análisis revela una variación en las secuencias de la proteína S entre diferentes cepas de coronavirus. Estas variaciones pueden estar relacionadas con la adaptación del virus a diferentes entornos y la respuesta inmune del huésped. Finalmente, el uso de herramientas computacionales para automatizar la recuperación de datos, el procesamiento de archivos genéticos y la extracción de información relevante permite difundir conocimientos y metodologías que puedan ser aprovechados por la comunidad científica y académica.
 
