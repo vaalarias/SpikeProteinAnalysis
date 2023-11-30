@@ -11,6 +11,9 @@ La estructura tridimensional de la proteína Spike presenta características ún
 
 Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas o variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
 
+## Objetivo
+Nuestro enfoque central es profundizar la comprensión de la variabilidad presente en las secuencias de la proteína-S de diferentes cepas del virus SARS-Cov-2.
+
 ## Estructura del Repositorio
 ```
 ├───data
@@ -23,7 +26,7 @@ Contiene los archivos recuperados de GenBank en formato ```.gb``` y el archivo f
 Aquí se almacenan los resultados generados por el análisis de las secuencias proteicas; visualizaciones y gráficos derivados del procesamiento de las secuencias.
 3. *src:*
 La carpeta src contiene todos los scripts y códigos fuente utilizados para el análisis, procesamiento y visualización de los datos. Incluye funciones, utilidades, y programas que realizan tareas específicas para el estudio de las proteínas.
-## Objetivos particulares
+## Metodología
 - Recuperación de IDs de NCBI para las cepas deseadas.
 - Almacenamiento de archivos GenBank.
 - Procesamiento de archivos y extracción de secuencia de interés.
@@ -68,10 +71,6 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
   python aminoacid_count.py
   ```
-
-## Objetivo
-Nuestro enfoque central es profundizar la comprensión de la variabilidad presente en las secuencias de la proteína-S de diferentes cepas del virus SARS-Cov-2.
-
 ## Resultados
 A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
   - Histograma de largo de las secuencias
