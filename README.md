@@ -33,7 +33,7 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
 - Almacenamiento de archivos GenBank.
 
-  Una vez obtenidos los IDs de las cepas deseadas, se procede a recuperar los archivos GenBank correspondientes a cada ID. Estos archivos contienen información detallada sobre la secuencia de ADN, incluyendo la información de la proteína Spike.
+  Una vez obtenidos los IDs de las cepas deseadas, se procede a recuperar los archivos GenBank correspondientes a cada ID. Estos archivos contienen información detallada sobre las secuencias proteicas, incluyendo la información de la proteína Spike.
   ```
     # Proceder con la descarga de archivos
     yes
@@ -57,7 +57,7 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
 - Analisis de contenido de aminoácidos.
 
-  Se lleva a cabo un análisis detallado del contenido de aminoácidos en las secuencias de la proteína Spike. Esto puede incluir la frecuencia y distribución de los diferentes aminoácidos presentes en las secuencias, lo cual es relevante para comprender la estructura y la función de la proteína.
+  Se lleva a cabo un análisis del contenido de aminoácidos en las secuencias de la proteína Spike. Esto incluye la frecuencia y distribución de los diferentes aminoácidos presentes en las secuencias, lo cual es relevante para comprender la estructura y la función de la proteína.
   ```
   python aminoacid_count.py
   ```
@@ -67,13 +67,13 @@ Nuestro enfoque central es profundizar la comprensión de la variabilidad presen
 
 ## Resultados
 A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
-  - Histograma de largo de las secuencias
+  - Histograma de largo de las secuencias:
   
-  - Contenido de aminoácidos correspondientes a la variante Alpha
+  - Contenido de aminoácidos correspondientes a la variante Alpha:
   
-  - Contenido de aminoácidos correspondientes a la variante Delta
+  - Contenido de aminoácidos correspondientes a la variante Delt:
   
-  - Contenido de aminoácidos correspondientes a la variante Omicron
+  - Contenido de aminoácidos correspondientes a la variante Omicron:
 
 ## Conclusiones
 
