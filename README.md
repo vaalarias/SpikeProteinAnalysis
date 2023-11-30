@@ -67,13 +67,14 @@ Nuestro enfoque central es profundizar la comprensión de la variabilidad presen
 
 ## Resultados
 A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
-  - Histograma de largo de las secuencias:
+  - ![Histograma de largo de las secuencias](results\histogram.png):
   
-  - Contenido de aminoácidos correspondientes a la variante Alpha:
+  - ![Contenido de aminoácidos correspondientes a la variante Alpha](results\aa_count_plot_SARS_CoV_2_human_CHE_SARS_CoV_2):
   
-  - Contenido de aminoácidos correspondientes a la variante Delt:
+  - ![Contenido de aminoácidos correspondientes a la variante Delt](results\aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023):
   
-  - Contenido de aminoácidos correspondientes a la variante Omicron:
+  - ![Contenido de aminoácidos correspondientes a la variante Omicron](results\aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023):
+
 
 ## Conclusiones
 
