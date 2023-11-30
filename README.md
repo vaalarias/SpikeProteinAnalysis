@@ -25,32 +25,38 @@ Aquí se almacenan los resultados generados por el análisis de las secuencias p
 La carpeta src contiene todos los scripts y códigos fuente utilizados para el análisis, procesamiento y visualización de los datos. Incluye funciones, utilidades, y programas que realizan tareas específicas para el estudio de las proteínas.
 #### Procedimiento
 - Recuperación de IDs de NCBI para las cepas deseadas
+
   Este paso implica la utilización de herramientas como la API de NCBI (Entrez) en Python para buscar y obtener los identificadores (IDs) de las cepas específicas de interés, como las variantes de la proteína Spike de diferentes cepas de coronavirus.
   ```
     # Ejecución de comandos desde la carpeta src
     python retrieve_strains delta alpha omicron
   ```
 - Almacenamiento de archivos GenBank
+
   Una vez obtenidos los IDs de las cepas deseadas, se procede a recuperar los archivos GenBank correspondientes a cada ID. Estos archivos contienen información detallada sobre la secuencia de ADN, incluyendo la información de la proteína Spike.
   ```
     # Proceder con la descarga de archivos
     yes
   ```
 - Procesamiento de archivos y extracción de secuencia de interés
+
   Se lleva a cabo el procesamiento de los archivos GenBank para extraer la secuencia de la proteína Spike.
   ```
     # Ejecución de segundo programa
     python fasta_generator.py
   ```
 - Generación de archivo fasta
+
   Con la secuencia de la proteína Spike extraída, se genera un archivo en formato FASTA que contiene la cepa y secuencia.
 
 - Análisis de longitud de secuencias
+
   Se analiza la longitud de las secuencias de la proteína Spike obtenidas de las diferentes cepas. Esto puede proporcionar información importante sobre la variabilidad en la longitud de la proteína entre las distintas cepas de coronavirus.
   ```
   python histogram.py
   ```
 - Analisis de contenido de aminoácidos
+
   Se lleva a cabo un análisis detallado del contenido de aminoácidos en las secuencias de la proteína Spike. Esto puede incluir la frecuencia y distribución de los diferentes aminoácidos presentes en las secuencias, lo cual es relevante para comprender la estructura y la función de la proteína.
   ```
   python aminoacid_count.py
