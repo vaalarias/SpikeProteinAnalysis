@@ -61,4 +61,13 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
   python aminoacid_count.py
   ```
+#### Resultados
+A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
+  - Histograma de largo de las secuencias
   
+  - Contenido de aminoácidos correspondientes a la variante Alpha
+  
+  - Contenido de aminoácidos correspondientes a la variante Delta
+  
+  - Contenido de aminoácidos correspondientes a la variante Omicron
+
