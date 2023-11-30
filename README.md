@@ -23,6 +23,13 @@ Contiene los archivos recuperados de GenBank en formato ```.gb``` y el archivo f
 Aquí se almacenan los resultados generados por el análisis de las secuencias proteicas; visualizaciones y gráficos derivados del procesamiento de las secuencias.
 3. *src:*
 La carpeta src contiene todos los scripts y códigos fuente utilizados para el análisis, procesamiento y visualización de los datos. Incluye funciones, utilidades, y programas que realizan tareas específicas para el estudio de las proteínas.
+## Objetivos particulares
+- Recuperación de IDs de NCBI para las cepas deseadas.
+- Almacenamiento de archivos GenBank.
+- Procesamiento de archivos y extracción de secuencia de interés.
+- Generación de archivo fasta.
+- Análisis de longitud de secuencias.
+- Analisis de contenido de aminoácidos.
 ## Procedimiento
 - Recuperación de IDs de NCBI para las cepas deseadas.
 
