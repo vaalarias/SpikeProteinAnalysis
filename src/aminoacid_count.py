@@ -3,14 +3,14 @@ NAME
     aminoacid_count.py
   
 VERSION
-    1.0  29/11/23
+    1.1  29/11/23
 
 
 AUTHOR
-    Valentina Arias & Ana García
+    Valentina Arias & Ana Marisol
 
 DESCRIPTION
-    El programa realiza un conteo de los aminoácidos presentes en cada secuencia del formato fasta recibido y genera un plot con las librerías Seaborn.
+    The program counts the amino acids present in each sequence from the received FASTA format and generates a plot using the Seaborn libraries.
 
 CATEGORY
    Sequence Analysis    
@@ -56,5 +56,6 @@ for record in SeqIO.parse(fasta_file, "fasta"):
     plt.ylabel('Frequency')
     plt.xticks(rotation=90) 
     plt.tight_layout()
+    # Use of regular expressions to fix file name issue
     plt.savefig(f'../results/aa_count_plot_{re.sub("[^a-zA-Z0-9]", "_", record.id)}.png')
 
