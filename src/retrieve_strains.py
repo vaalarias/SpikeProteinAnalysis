@@ -63,7 +63,7 @@ def fetch_genbank_record(id,strain):
     filename = f"../data/genbank_record_{strain_name}.gb"
     with open(filename, "w") as file:
         file.write(record)
-    handle.close()
+    handle.close() 
     return filename
 
 if __name__ == "__main__":
