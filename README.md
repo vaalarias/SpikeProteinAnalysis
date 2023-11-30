@@ -71,3 +71,8 @@ A partir de los análisis realizados con las secuencias de la proteína correspo
   
   - Contenido de aminoácidos correspondientes a la variante Omicron
 
+#### Conclusiones
+
+La exploración detallada de las secuencias permite visualizar la diversidad genética entre las cepas, resaltando las áreas conservadas y las regiones propensas a variaciones.
+
+El análisis revela una variación en las secuencias de la proteína S entre diferentes cepas de coronavirus. Estas variaciones pueden estar relacionadas con la adaptación del virus a diferentes entornos y la respuesta inmune del huésped.
