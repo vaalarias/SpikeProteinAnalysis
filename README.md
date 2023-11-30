@@ -9,7 +9,7 @@ La proteína Spike, también conocida como S-proteína, es una estructura clave 
 
 La estructura tridimensional de la proteína Spike presenta características únicas que la hacen crucial para comprender la patogénesis viral, así como para el desarrollo de terapias y vacunas efectivas. Su interacción con el receptor de la célula huésped es un punto de enfoque en la investigación biomédica para comprender la transmisión viral y el desarrollo de estrategias terapéuticas.
 
-Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas/variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
+Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas o variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
 
 #### Estructura del Repositorio
 ```
@@ -23,3 +23,51 @@ Contiene los archivos recuperados de GenBank en formato ```.gb``` y el archivo f
 Aquí se almacenan los resultados generados por el análisis de las secuencias proteicas; visualizaciones y gráficos derivados del procesamiento de las secuencias.
 3. *src:*
 La carpeta src contiene todos los scripts y códigos fuente utilizados para el análisis, procesamiento y visualización de los datos. Incluye funciones, utilidades, y programas que realizan tareas específicas para el estudio de las proteínas.
+#### Procedimiento
+- Recuperación de IDs de NCBI para las cepas deseadas.
+
+  Este paso implica la utilización de herramientas como la API de NCBI (Entrez) en Python para buscar y obtener los identificadores (IDs) de las cepas específicas de interés, como las variantes de la proteína Spike de diferentes cepas de coronavirus.
+  ```
+    # Ejecución de comandos desde la carpeta src
+    python retrieve_strains delta alpha omicron
+  ```
+- Almacenamiento de archivos GenBank.
+
+  Una vez obtenidos los IDs de las cepas deseadas, se procede a recuperar los archivos GenBank correspondientes a cada ID. Estos archivos contienen información detallada sobre la secuencia de ADN, incluyendo la información de la proteína Spike.
+  ```
+    # Proceder con la descarga de archivos
+    yes
+  ```
+- Procesamiento de archivos y extracción de secuencia de interés.
+
+  Se lleva a cabo el procesamiento de los archivos GenBank para extraer la secuencia de la proteína Spike.
+  ```
+    # Ejecución de segundo programa
+    python fasta_generator.py
+  ```
+- Generación de archivo fasta.
+
+  Con la secuencia de la proteína Spike extraída, se genera un archivo en formato FASTA que contiene la cepa y secuencia.
+
+- Análisis de longitud de secuencias.
+
+  Se analiza la longitud de las secuencias de la proteína Spike obtenidas de las diferentes cepas. Esto puede proporcionar información importante sobre la variabilidad en la longitud de la proteína entre las distintas cepas de coronavirus.
+  ```
+  python histogram.py
+  ```
+- Analisis de contenido de aminoácidos.
+
+  Se lleva a cabo un análisis detallado del contenido de aminoácidos en las secuencias de la proteína Spike. Esto puede incluir la frecuencia y distribución de los diferentes aminoácidos presentes en las secuencias, lo cual es relevante para comprender la estructura y la función de la proteína.
+  ```
+  python aminoacid_count.py
+  ```
+#### Resultados
+A partir de los análisis realizados con las secuencias de la proteína correspondiente a cada una de las tres cepas ingresadas recuperamos gráficos para visualizar la información recolectada.
+  - Histograma de largo de las secuencias
+  
+  - Contenido de aminoácidos correspondientes a la variante Alpha
+  
+  - Contenido de aminoácidos correspondientes a la variante Delta
+  
+  - Contenido de aminoácidos correspondientes a la variante Omicron
+
