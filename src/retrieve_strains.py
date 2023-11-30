@@ -1,3 +1,30 @@
+'''
+NAME
+    retrieve_strains.py
+  
+VERSION
+    1.0  29/11/23
+
+
+AUTHOR
+    Valentina Arias & Ana Marisol 
+
+DESCRIPTION
+    The program receives the name or identifier of the strain/variant through the command line input and searches for the identifier in NCBI using Entrez. It displays the first result on the screen and requests user confirmation for downloading the GenBank file.
+
+
+CATEGORY
+   Database Search
+
+USAGE
+
+    % python retrieve_strains.py {strain_name_1} {strain_name_2} {strain_name_n}
+
+ARGUMENTS
+    STRAIN [Strain ...]: Name(s) of the strains or variants(s) to print identifier and file to download
+
+
+'''
 import sys
 from Bio import Entrez
 from xml.etree import ElementTree as ET
@@ -7,11 +34,30 @@ Entrez.email = "vjarias@lcg.unam.mx"
 
 # Function to search for SARS-CoV-2 sequences based on the provided strain
 def search_sars_cov2(query):
+    """
+    Searches for SARS-CoV-2 sequences based on the provided query.
+
+    Parameters:
+    query (str): The query string used for searching.
+
+    Returns:
+    record: A dictionary containing the search results.
+    """
     handle = Entrez.esearch(db="nucleotide", term=query)
     record = Entrez.read(handle)
     handle.close()
     return record
 def fetch_genbank_record(id,strain):
+    """
+    Fetches the GenBank record for a given ID and saves it as a file.
+
+    Parameters:
+    id (str): The identifier of the record to be fetched.
+    strain (str): The name or identifier of the strain/variant for file naming.
+
+    Returns:
+    filename (str): The filename of the saved GenBank record.
+    """
     handle = Entrez.efetch(db="nucleotide", id=id, rettype="gb", retmode="text")
     record = handle.read()
     filename = f"../data/genbank_record_{strain_name}.gb"
