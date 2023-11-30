@@ -73,11 +73,7 @@ A partir de los análisis realizados con las secuencias de la proteína correspo
 
 #### Conclusiones
 
-La exploración detallada de las secuencias permite visualizar la diversidad genética entre las cepas, resaltando las áreas conservadas y las regiones propensas a variaciones.
-
-El análisis revela una variación en las secuencias de la proteína S entre diferentes cepas de coronavirus. Estas variaciones pueden estar relacionadas con la adaptación del virus a diferentes entornos y la respuesta inmune del huésped.
-
-El uso de herramientas computacionales para automatizar la recuperación de datos, el procesamiento de archivos genéticos y la extracción de información relevante permite difundir conocimientos y metodologías que puedan ser aprovechados por la comunidad científica y académica.
+La exploración detallada de las secuencias permite visualizar la diversidad genética entre las cepas, resaltando las áreas conservadas y las regiones propensas a variaciones. Además, el análisis revela una variación en las secuencias de la proteína S entre diferentes cepas de coronavirus. Estas variaciones pueden estar relacionadas con la adaptación del virus a diferentes entornos y la respuesta inmune del huésped. Finalmente, el uso de herramientas computacionales para automatizar la recuperación de datos, el procesamiento de archivos genéticos y la extracción de información relevante permite difundir conocimientos y metodologías que puedan ser aprovechados por la comunidad científica y académica.
 
 #### Referencias
 1. Candido KL, Eich CR, de Fariña LO, Kadowaki MK, da Conceição Silva JL, Maller A, Simão RCG. Spike protein of SARS-CoV-2 variants: a brief review and practical implications. Braz J Microbiol. 2022 Sep;53(3):1133-1157. doi: 10.1007/s42770-022-00743-z. Epub 2022 Apr 9. PMID: 35397075; PMCID: PMC8994061.
