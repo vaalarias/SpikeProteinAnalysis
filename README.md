@@ -9,7 +9,7 @@ La proteína Spike, también conocida como S-proteína, es una estructura clave 
 
 La estructura tridimensional de la proteína Spike presenta características únicas que la hacen crucial para comprender la patogénesis viral, así como para el desarrollo de terapias y vacunas efectivas. Su interacción con el receptor de la célula huésped es un punto de enfoque en la investigación biomédica para comprender la transmisión viral y el desarrollo de estrategias terapéuticas.
 
-Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas/variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
+Este repositorio contiene herramientas y scripts para analizar la secuencia de la proteína S en diferentes cepas o variantes del virus SARS-Cov-2. Proporcionando información fundamental para la búsqueda de mutaciones o predicción de estructura.
 
 #### Estructura del Repositorio
 ```
