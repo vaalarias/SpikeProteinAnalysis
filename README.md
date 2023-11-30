@@ -47,7 +47,7 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   ```
 - Generación de archivo fasta.
 
-  Con la secuencia de la proteína Spike extraída, se genera un archivo en formato FASTA que contiene la cepa y secuencia.
+  Con la secuencia de la proteína Spike extraída, se genera un archivo en formato FASTA que contiene la cepa y secuencia. Este archivo se guarda en la carpeta data con el nombre 's_protein.fasta'.
 
 - Análisis de longitud de secuencias.
 
