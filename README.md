@@ -39,7 +39,7 @@ La carpeta src contiene todos los scripts y códigos fuente utilizados para el a
   Este paso implica la utilización de herramientas como la API de NCBI (Entrez) en Python para buscar y obtener los identificadores (IDs) de las cepas específicas de interés, como las variantes de la proteína Spike de diferentes cepas de coronavirus.
   ```
     # Ejecución de comandos desde la carpeta src
-    python retrieve_strains delta alpha omicron
+    python retrieve_strains.py delta alpha omicron
   ```
 - Almacenamiento de archivos GenBank.
 
