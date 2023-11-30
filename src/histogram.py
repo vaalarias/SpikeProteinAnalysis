@@ -5,22 +5,20 @@ NAME
 VERSION 1.0 
 
 AUTHOR
-      Ana Marisol García Mejía & Valentina Janet Arias Ojeda 
+      Ana Marisol & Valentina Arias 
 
 DESCRIPTION
-    
+    This program obtains the length of the sequences by iterating through each sequence in the FASTA format, storing it, and generating a plot using the Matplotlib library.
 
 CATEGORY
-    
+    Sequence Analysis
         
 USAGE
-    % py histogram.py [-h] [file]
+    % python histogram.py
 
 ARGUMENTS
-    -f FILE, --file FILE 
+    None
 
-
-EXAMPLE
     
 
 '''
