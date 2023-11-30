@@ -13,9 +13,7 @@ Este repositorio contiene herramientas y scripts para analizar la secuencia de l
 
 #### Estructura del Repositorio
 ├───data
-
 ├───results
-
 └───src
 
 1. *data:* 
