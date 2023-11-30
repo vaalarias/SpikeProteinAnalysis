@@ -70,11 +70,14 @@ A partir de los análisis realizados con las secuencias de la proteína correspo
   - Histograma de largo de las secuencias
    ![](/results/histogram.png)
   
-  - ![Contenido de aminoácidos correspondientes a la variante Alpha](results\aa_count_plot_SARS_CoV_2_human_CHE_SARS_CoV_2):
+  - Contenido de aminoácidos correspondientes a la variante Alpha:
+    ![](/results/aa_count_plot_SARS_CoV_2_human_CHE_SARS_CoV_2.png)
   
-  - ![Contenido de aminoácidos correspondientes a la variante Delt](results\aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023):
+  - Contenido de aminoácidos correspondientes a la variante Delta:
+    ![](/results/aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023.png)
   
-  - ![Contenido de aminoácidos correspondientes a la variante Omicron](results\aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023):
+  - Contenido de aminoácidos correspondientes a la variante Omicron:
+    ![](/results/aa_count_plot_SARS_CoV_2_human_KAZ_Omicron_XBB_1_9_1_406_2023.png)
 
 
 ## Conclusiones
